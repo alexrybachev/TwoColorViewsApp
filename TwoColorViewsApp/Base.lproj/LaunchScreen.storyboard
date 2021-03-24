@@ -24,21 +24,21 @@
                                 <rect key="frame" x="20" y="44" width="374" height="400"/>
                                 <color key="backgroundColor" red="0.63398191812933058" green="1" blue="0.48661332966485549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" priority="250" constant="400" id="f7L-1i-oBs"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="400" id="Tvn-Ut-qHh"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="QXs-yc-RNU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" priority="750" constant="20" id="8pW-zw-cg4"/>
-                            <constraint firstItem="QXs-yc-RNU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="BnY-jh-Kdn"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FNx-Ra-CxD" secondAttribute="trailing" constant="20" id="E35-Rw-NQx"/>
-                            <constraint firstItem="FNx-Ra-CxD" firstAttribute="height" secondItem="QXs-yc-RNU" secondAttribute="height" multiplier="1.0125" id="TEL-OJ-sBR"/>
-                            <constraint firstItem="FNx-Ra-CxD" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="mqJ-Ff-9em"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QXs-yc-RNU" secondAttribute="trailing" priority="750" constant="20" id="sLP-dB-A2r"/>
-                            <constraint firstItem="FNx-Ra-CxD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" priority="750" constant="20" id="uH4-yq-fCa"/>
-                            <constraint firstItem="FNx-Ra-CxD" firstAttribute="top" secondItem="QXs-yc-RNU" secondAttribute="bottom" constant="13" id="yEm-YT-koq"/>
+                            <constraint firstItem="FNx-Ra-CxD" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="BUY-ec-AIt"/>
+                            <constraint firstItem="FNx-Ra-CxD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="N24-bR-sdF"/>
+                            <constraint firstItem="QXs-yc-RNU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="QIE-sK-3XC"/>
+                            <constraint firstItem="FNx-Ra-CxD" firstAttribute="height" secondItem="QXs-yc-RNU" secondAttribute="height" multiplier="1.0125" id="WtN-o9-foE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QXs-yc-RNU" secondAttribute="trailing" constant="20" id="fdy-GK-6Rd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FNx-Ra-CxD" secondAttribute="trailing" constant="20" id="gKP-tS-Wtd"/>
+                            <constraint firstItem="QXs-yc-RNU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="qdN-za-Gwt"/>
+                            <constraint firstItem="FNx-Ra-CxD" firstAttribute="top" secondItem="QXs-yc-RNU" secondAttribute="bottom" constant="13" id="xkg-Jr-LxG"/>
                         </constraints>
                     </view>
                 </viewController>
