@@ -15,31 +15,8 @@
                     <view key="view" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FNx-Ra-CxD">
-                                <rect key="frame" x="20" y="457" width="374" height="405"/>
-                                <color key="backgroundColor" red="0.92133218050003052" green="0.32021972852131386" blue="0.18552001324599546" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QXs-yc-RNU">
-                                <rect key="frame" x="20" y="44" width="374" height="400"/>
-                                <color key="backgroundColor" red="0.63398191812933058" green="1" blue="0.48661332966485549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="400" id="Tvn-Ut-qHh"/>
-                                </constraints>
-                            </view>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="FNx-Ra-CxD" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="BUY-ec-AIt"/>
-                            <constraint firstItem="FNx-Ra-CxD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="N24-bR-sdF"/>
-                            <constraint firstItem="QXs-yc-RNU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="QIE-sK-3XC"/>
-                            <constraint firstItem="FNx-Ra-CxD" firstAttribute="height" secondItem="QXs-yc-RNU" secondAttribute="height" multiplier="1.0125" id="WtN-o9-foE"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QXs-yc-RNU" secondAttribute="trailing" constant="20" id="fdy-GK-6Rd"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FNx-Ra-CxD" secondAttribute="trailing" constant="20" id="gKP-tS-Wtd"/>
-                            <constraint firstItem="QXs-yc-RNU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="qdN-za-Gwt"/>
-                            <constraint firstItem="FNx-Ra-CxD" firstAttribute="top" secondItem="QXs-yc-RNU" secondAttribute="bottom" constant="13" id="xkg-Jr-LxG"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
